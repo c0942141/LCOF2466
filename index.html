@@ -1,38 +1,95 @@
 <!DOCTYPE html>
-<!--
-    Student Name: Jebimon Abraham
-    File Name: template.html
-    Project name: Roasting Pans
--->
+<!-- This website template was created by: Jebimon Abraham -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <title>Quality Roasting Pans</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roasting Pans: Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
 <body>
-    <Header>
-        <h1>Roasting Pans</h1>
-    </Header>
-    <h2></h2>
-    
-    
-    <nav>
-        <p><a href="index.html">Home</a> &nbsp; &#9672; &nbsp;
-            <a href="about.html">About Us</a> &nbsp; &#9672; &nbsp;
-            <a href="products.html">Products</a> &nbsp; &#9672; &nbsp;
-            <a href="contact.html">Contact</a>
-        </p>
-    </nav>
-    <!-- Use the main area to add the main content to the webpage -->
-    <main>
-        <div>
+
+    <div id="container">
+
+        <!-- Header with website logo -->
+        <header>
+            <a href="index.html"><img src="images/roasting-pan-logo.png" alt="Quality Roasting Pans logo" width="300" height="300"></a>
+        </header>
         
+        <!-- Navigation links to other pages -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="products.html">Products</a></li> 
+                <li><a href="features.html">Features</a></li> 
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <div id="pan" class="tablet-desktop">
+            <img src="images/roasting-pan-logo.png" alt="high-quality roasting pan" width="400" height="400">
         </div>
-    </main>
-        <footer><p>&copy; Copyright 2024. All Rights Reserved.</p>
-            <p><a href="mailto:contact@roastingpans.net">contact@roastingpans.net</a></p>
+        
+        <!-- Main content of the homepage -->
+        <main>
+            
+            <div class="mobile">
+                <p>Welcome to Quality Roasting Pans, where craftsmanship meets performance. Discover the perfect pan to elevate your culinary skills.</p> 
+                
+                <h3>Exclusive Offer!</h3>
+                <p>Sign up today and enjoy 10% off your first order.</p>
+                <p class="tel-link"><a href="tel:18005551234">(800) 555-1234</a></p>
+                
+                <h4>Customer Service Hours:</h4>
+                <ul class="hours">
+                     <li>Mon - Fri: 9:00am - 5:00pm</li>
+                     <li>Saturday: 10:00am - 4:00pm</li>
+                     <li>Sunday: Closed</li>
+                </ul>
+            </div>
+            
+            <div class="tablet-desktop">
+                <p>Welcome to Quality Roasting Pans! Our mission is to provide you with the highest-quality roasting pans for all your cooking needs. Made from durable materials and designed to deliver consistent results, our pans are perfect for creating delicious, tender, and evenly cooked meals.</p> 
+
+                <p>From holiday feasts to everyday dinners, our roasting pans are built to help you cook with confidence. Shop our collection to find the ideal pan for your kitchen and learn more about how our products can elevate your culinary creations.</p> 
+
+                <p>New to our website? Get 10% off your first order by contacting our team today!</p>
+            </div>
+            
+            <div class="grid">
+                
+                <figure class="frame">
+                    <a href="products.html"><img src="images/pan-selection.jpg" alt="variety of roasting pans"></a>
+                    <figcaption class="pic-text">Our Products</figcaption>
+                </figure>
+                
+                <figure class="frame">
+                    <a href="features.html"><img src="images/nonstick-coating.jpg" alt="delicious roasted food"></a>
+                    <figcaption class="pic-text">Features</figcaption>
+                </figure>
+                
+                <figure class="frame">
+                    <a href="contact.html"><img src="images/pan5.jpg" alt="customer support"></a>
+                    <figcaption class="pic-text">Contact Us</figcaption>
+                </figure>
+            
+            </div>
+            
+        </main>
+        
+        <!-- Footer with contact information -->
+        <footer>
+            <p>&copy; Copyright 2024 Quality Roasting Pans. All Rights Reserved.</p>
+            <p><a href="mailto:info@qualityroastingpans.com">info@qualityroastingpans.com</a></p>
         </footer>
+    
+    </div>
     
 </body>
 </html>

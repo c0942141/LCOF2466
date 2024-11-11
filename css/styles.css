@@ -1,0 +1,187 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+#container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #f4b400;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    font-family: 'Francois One', sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p, ul {
+    margin-bottom: 15px;
+}
+
+ul.benefits {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+.round {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Contact Information */
+.tel-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hours {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* Form Styling */
+form {
+    display: grid;
+    gap: 10px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #f4b400;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    border-top: 5px solid #f4b400;
+}
+
+footer a {
+    color: #f4b400;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    #hero img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .grid {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+    }
+
+    .frame {
+        flex: 1;
+        text-align: center;
+    }
+
+    .frame img {
+        border-radius: 8px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .frame figcaption {
+        font-family: 'Francois One', sans-serif;
+        margin-top: 10px;
+    }
+}
