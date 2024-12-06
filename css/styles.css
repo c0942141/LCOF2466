@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
 }
 
-img {
+img, video {
     max-width: 100%;
     display: block;
 }
@@ -74,6 +74,10 @@ main {
     font-size: 1.25em;
     border-radius: 8px;
 }
+
+video {
+    margin: 0 auto 4%;
+} 
 
 .mobile h3 {
     text-shadow: 5px 5px 8px #333;
