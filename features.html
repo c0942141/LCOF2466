@@ -15,14 +15,27 @@
 <body>
 
     <div id="container">
-
+        <!-- Mobile nav -->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="products.html">Products</a>
+                <a href="features.html">Features</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a  class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+        
         <!-- Header area for the website logo -->
-        <header>
+        <header id="logo">
             <a href="index.html"><img src="images/roasting-pan-logo.png" alt="Quality Roasting Pans logo" height="220" width="297"></a>
         </header>
         
         <!-- Navigation links for different sections of the website -->
-        <nav>
+        <nav class="tablet-desktop">
             <ul>
                 <li><a href="index.html">Home</a></li> 
                 <li><a href="about.html">About Us</a></li> 
@@ -40,25 +53,25 @@
 
             <section id="material">
                 <h2>Premium Material</h2>
-                <img src="images/stainless-steel.jpg" alt="Stainless steel roasting pan" class="round" width="300">
+                <img src="images/stainless-steel.jpg" alt="Stainless steel roasting pan" class="round">
                 <p>Our roasting pans are crafted from high-grade stainless steel, providing excellent heat conductivity and lasting durability.</p>
             </section>
 
             <section id="design">
                 <h2>Ergonomic Design</h2>
-                <img src="images/ergonomic-design.jpg" alt="Ergonomic handles on roasting pan" class="round" height="300">
+                <img src="images/ergonomic-design.jpg" alt="Ergonomic handles on roasting pan" class="round">
                 <p>Each pan is designed with comfort-grip handles, making it easy to lift and transport even with heavier roasts.</p>
             </section>
 
-            <section id="nonstick">
+            <section id="coating">
                 <h2>Nonstick Coating</h2>
-                <img src="images/nonstick-coating.jpg" alt="Nonstick coating on roasting pan" class="round" width="300" height="300">
+                <img src="images/nonstick-coating.jpg" alt="Nonstick coating on roasting pan" class="round">
                 <p>The nonstick surface allows for easy food release and cleanup, ensuring your roasts come out perfectly every time.</p>
             </section>
 
             <section id="temperature">
                 <h2>High Temperature Resistance</h2>
-                <img src="images/temperature-resistant.jpg" alt="High temperature roasting pan in oven" class="round" width="300" height="300">
+                <img src="images/temperature-resistant.jpg" alt="High temperature roasting pan in oven" class="round">
                 <p>Our pans can withstand temperatures up to 500°F, making them ideal for all types of roasting and broiling.</p>
             </section>
 
@@ -71,6 +84,8 @@
         </footer>
     
     </div>
+    
+    <script src="Scripts/Script.js"></script>
     
 </body>
 </html>

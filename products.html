@@ -15,14 +15,27 @@
 <body>
 
     <div id="container">
+        <!-- Mobile nav -->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="products.html">Products</a>
+                <a href="features.html">Features</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a  class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
 
         <!-- Header area for the website logo -->
-        <header>
+        <header id="logo">
             <a href="index.html"><img src="images/roasting-pan-logo.png" alt="Quality Roasting Pans logo" height="220" width="297"></a>
         </header>
         
         <!-- Navigation links for different sections of the website -->
-        <nav>
+        <nav class="tablet-desktop">
             <ul>
                 <li><a href="index.html">Home</a></li> 
                 <li><a href="about.html">About Us</a></li> 
@@ -38,38 +51,39 @@
             <h1>Our Roasting Pan Collection</h1>
             <p>We offer a wide range of roasting pans to suit every cooking need. Explore our products below:</p>
 
-            <section id="standard-pan">
+            <article id="standard-pan">
                 <h2>Standard Roasting Pan</h2>
-                <img src="images/pan.png" alt="Standard Roasting Pan" class="round" width="300" height="300">
+                <img src="images/pan.png" alt="Standard Roasting Pan" class="round">
                 <p>This classic roasting pan is perfect for everyday roasting and fits in most ovens. Ideal for chicken, turkey, and vegetables.</p>
                 <ul>
                     <li>Size: 13 x 9 inches</li>
                     <li>Material: Stainless Steel</li>
                     <li>Price: $39.99</li>
                 </ul>
-            </section>
+            </article>
 
-            <section id="premium-pan">
+            <article id="premium-pan">
                 <h2>Premium Roasting Pan with Rack</h2>
-                <img src="images/pan-rack.jpg" alt="Premium Roasting Pan with Rack" class="round" width="300" height="300">
+                <img src="images/pan-rack.jpg" alt="Premium Roasting Pan with Rack" class="round">
                 <p>Our premium pan comes with a nonstick rack for improved airflow, ensuring even roasting. Great for larger meats and holiday feasts.</p>
                 <ul>
                     <li>Size: 16 x 12 inches</li>
                     <li>Material: Heavy-Duty Stainless Steel</li>
                     <li>Price: $69.99</li>
                 </ul>
-            </section>
+            </article>
 
-            <section id="custom-pan">
+            <article id="custom-pan">
                 <h2>Custom Roasting Pan</h2>
-                <img src="images/custom-roasting-pan.jpg" alt="Custom Roasting Pan" class="round" width="300" height="300">
+                <img src="images/custom-roasting-pan.jpg" alt="Custom Roasting Pan" class="round">
                 <p>Looking for something specific? Our custom pan service allows you to choose the size, material, and additional features.</p>
                 <ul>
                     <li>Customizable Size</li>
                     <li>Choice of Material: Stainless Steel, Copper, or Aluminum</li>
                     <li>Price: Starting at $89.99</li>
                 </ul>
-            </section>
+            </article>
+
 
         </main>
         
@@ -80,6 +94,8 @@
         </footer>
     
     </div>
+    
+    <script src="Scripts/Script.js"></script>
     
 </body>
 </html>
