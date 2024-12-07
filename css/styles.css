@@ -215,13 +215,19 @@ label {
 }
 
 form #submit {
-    margin: 0 auto;
-    border: none;
+    margin-right: auto;
     display: block;
     padding: 2%;
     background-color: #b3b3b3;
     font-size: 1em;
-    border-radius: 10px;
+}
+
+form #reset {
+    margin-right: auto;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em;
 }
 
 /* Footer */
@@ -264,13 +270,13 @@ footer a:hover {
     nav {
 	padding: 1%;
     margin-bottom: 1%;
-}
+    }
 
-nav ul {
-    list-style-type: none;
-    text-align: center;
-    text-decoration-color: #000;
-}
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+        text-decoration-color: #000;
+    }
     
     nav li {
         font-size: 1.5em;
@@ -420,6 +426,10 @@ nav ul {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 20px; 
+    }
+    
+    .btn {
+        margin-right: 10px;
     }
 }
 
